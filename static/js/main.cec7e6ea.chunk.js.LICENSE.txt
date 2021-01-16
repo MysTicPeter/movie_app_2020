@@ -1,0 +1,5 @@
+//! as we DON'T NEED state = no need for class comp. = can just use function comp.
+
+//! from App.js -> <div class="movies">, u passed on genres prop, then w/Movie.PropTypes = {...}, u can typecheck
+
+//! no need to have genres = as a parameter inside this Movie function, but bcoz it's inside Movie.PropTypes and it's req, so inside App.js = u do need to pass on a prop called gneres no matter what, but just know that u dont need to use inside this Movie function 
